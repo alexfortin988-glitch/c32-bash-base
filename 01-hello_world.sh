@@ -8,5 +8,10 @@
 echo "Hello World"
 
 echo -n "Vive "
-echo 'Linux"
+echo "Linux"
 echo -e "123/n456"
+
+
+# Pas de signe de $ lors de l'affectation
+read -p "Quel âge avez-vous ?  " age
+echo $age " ans ! "
