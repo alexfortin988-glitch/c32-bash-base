@@ -1,0 +1,2 @@
+echo "salut"
+echo $PATH
